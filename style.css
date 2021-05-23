@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Questrial', sans-serif;
+    color: lightgray;
+}
+body {
+    background-color: #122744;
+    background-image: url('./assets/bg1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* textos */
+h2 {
+    font-size: 3em;
+    color: white;
+}
+h3 {
+    font-size: 2em;
+}
+a {
+    font-weight: bolder;
+
+}
+/* contenedores */
+article {
+    background-color: #fdfdfd46;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+}
+.lg60 {
+    width: 57%;
+}
+.lg30 {
+    width: 32%;
+}
+.lg100 {
+    width: 95%;
+}
+/* personalizados */
+img {
+    width: 80%;
+    box-shadow: .3em .3em .3em lightgray;
+}
+header {
+    margin-top: 20%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: stretch;
+    background-color: teal;
+    border-radius: 1em;
+    padding: 1em;
+}
+.fotografia {
+    width: 30%;
+    float: left;
+    margin-top: -5%;
+    text-align: center;
+}
+.resumen {
+    width: 100%;
+}
+.iconos {
+    display: flex;
+    width: 70%;
+}
+.iconos > i {
+    font-size: 1.5em;
+    padding: 0.2em;
+    transition: all .5s ease;
+    cursor: pointer;
+    opacity: .8;
+}
+.iconos > i:hover {
+    transform: scale(1.30);
+    opacity: 1;
+}
+.left {
+    float: left;
+}
+
+/* para modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

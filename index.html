@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Israel Jose Huallpara Mencias</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+            <div class="fotografia">
+                <img src="./assets/foto.jpeg" alt="Israel Huallpara">
+            </div>
+            <div>
+                <div class="iconos">
+                    <i class="fab fa-github-square"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+
+                </div>
+                <div  class="resumen">
+                    <h2 id='minombre'>Israel Jose Huallpara Mencias</h2>
+                    <h3>Desarrollador web Full Stack</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <button id="myBtn"><i class="far fa-smile"></i> Conoceme mas...</button>
+                </div>
+            </div>
+            
+        
+        
+    </header>
+    <article class="lg60">
+        <h3>Experiencia laboral</h3>
+
+
+
+    </article>
+    <article class="lg30">
+        <h3>Skills</h3>
+        
+    </article>
+    <article class="lg100">
+        <h3>Formacion academica</h3>
+        
+    </article>
+    <article class="lg100">
+        <h3>Formulario de registro</h3>
+        
+    </article>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+        </div>
+    </div>
+    <script src="./app.js" ></script>
+    <script>
+        // Register the service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }).catch(function(err) {
+            // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        }    
+    </script>
+</body>
+</html>
